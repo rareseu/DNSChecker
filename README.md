@@ -3,9 +3,8 @@
 Open source DNS Checker API with unlimited use, no restrictions applied.
 
 ## API Reference (Usage)
-1. [https://dnschecker.rares.eu.org](https://dnschecker.rares.eu.org)
-2. [https://dnschecker.rares.eu](https://dnschecker.rares.eu)
-3. [https://dnschecker.fabian.eu.org](https://dnschecker.fabian.eu.org)
+1. [https://dnschecker.rares.eu](https://dnschecker.rares.eu)
+2. [https://dnschecker.rares.eu.org](https://dnschecker.rares.eu.org)
 
 Using any of the above link, make GET requests following:
 
