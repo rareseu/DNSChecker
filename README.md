@@ -45,4 +45,4 @@ Please make sure to update tests as appropriate.
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
-This project is tested with BrowserStack.
+This project is tested with [BrowserStack](https://www.browserstack.com/).
