@@ -3,13 +3,12 @@
 Open source DNS Checker API with unlimited use, no restrictions applied.
 
 ## API Reference (Usage)
-1. [https://dnschecker.rares.eu](https://dnschecker.rares.eu)
-2. [https://dnschecker.rares.eu.org](https://dnschecker.rares.eu.org)
+1. [https://projects.rares.eu/dns](https://projects.rares.eu/dns)
 
 Using any of the above link, make GET requests following:
 
 ```http
-  GET https://dnschecker.rares.eu.org/type/url/dns?
+  GET https://projects.rares.eu/dns/type/url/dns?
 ```
 
 | Parameter | Type     | Description                       |
@@ -35,10 +34,8 @@ Supported types:
 - ALL (when using /all/, the API will return A, AAAA, CAA, CNAME, MX, NS, SOA, SRV and SRV values) 
 
 Examples:
-- [https://dnschecker.rares.eu.org/a/google.com](https://dnschecker.rares.eu.org/a/google.com)
-- [https://dnschecker.rares.eu.org/txt/google.com](https://dnschecker.rares.eu.org/a/google.com)
-- [**https://dnschecker.rares.eu.org/all/google.com**](https://dnschecker.rares.eu.org/all/google.com)
-- [**https://dnschecker.rares.eu.org/all/github.com/cloudflare**](https://dnschecker.rares.eu.org/all/github.com/cloudflare)
+- [https://projects.rares.eu/dns/a/google.com](https://projects.rares.eu/dns/a/google.com)
+- [https://projects.rares.eu/dns/txt/google.com](https://projects.rares.eu/dns/a/google.com)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
@@ -47,3 +44,5 @@ Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+This project is tested with BrowserStack.
